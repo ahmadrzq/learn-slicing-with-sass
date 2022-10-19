@@ -87,8 +87,9 @@
     img {
       width: 100%;
     }
-    h4,h4{
-        margin: 0;
+    h4,
+    h4 {
+      margin: 0;
     }
     .color {
       font-weight: 400;
@@ -126,9 +127,72 @@
     border-radius: 12px;
     white-space: nowrap;
     transition: all 0.25s ease;
-    &:hover{
-        background: $primary;
-        color: $bg-light;
+    &:hover {
+      background: $primary;
+      color: $bg-light;
     }
+  }
+}
+
+.best- {
+  &card {
+    background: $bg-light;
+    border-radius: 24px;
+    padding: 25px;
+  }
+  &preview {
+    height: 100px;
+  }
+}
+
+.social {
+  .name {
+    margin: 0;
+  }
+  .verified {
+    margin: 0;
+  }
+  h5{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: $text-light;
+  }
+  .link {
+    text-decoration: none;
+    color: $primary;
+  }
+  .btn {
+    @include button;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    width: 109px;
+    height: 45px;
+    border: 1px solid $primary;
+    color: $primary;
+    background: $button;
+    border-radius: 12px;
+    white-space: nowrap;
+    transition: all 0.25s ease;
+    &:hover {
+      background: $primary;
+      color: $bg-light;
+    }
+  }
+}
+
+.data {
+  .count {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    color: $text;
+  }
+  .total {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: $text-light;
   }
 }
