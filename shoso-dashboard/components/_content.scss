@@ -1,0 +1,61 @@
+#content {
+  padding: 40px 60px 60px 430px;
+}
+
+.navbar {
+  .profile {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+  .name {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: $profile;
+    margin: 0;
+  }
+  .desc {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: $text-light;
+    margin: 0;
+    margin-right: 5px;
+  }
+  .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: $tertiary;
+    text-decoration: none;
+  }
+  .button {
+    @include button;
+    background: $bg-light;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px 
+    
+     ;
+  }
+  .input-group {
+    width: 250px;
+    height: 50px;
+    border-radius: 12px;
+    background: $bg-light;
+    & > * {
+      border: none;
+    }
+    .btn {
+      background-color: $bg-light;
+    }
+    input {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: $text-secondary;
+    }
+  }
+}
