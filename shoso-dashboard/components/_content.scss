@@ -36,9 +36,7 @@
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    margin-left: 20px 
-    
-     ;
+    margin-left: 20px;
   }
   .input-group {
     width: 250px;
@@ -56,6 +54,81 @@
       font-size: 14px;
       line-height: 21px;
       color: $text-secondary;
+    }
+  }
+}
+
+.content- {
+  &header {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  &title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: $text;
+  }
+  &link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: right;
+    color: $primary;
+  }
+}
+
+.product- {
+  &card {
+    padding: 20px;
+    background: $bg-light;
+    border-radius: 24px;
+    img {
+      width: 100%;
+    }
+    h4,h4{
+        margin: 0;
+    }
+    .color {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: $text-light;
+    }
+    .name {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: $text;
+    }
+    .price {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: $primary;
+    }
+  }
+  &like {
+    @include button;
+  }
+  &buy {
+    @include button;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    width: 109px;
+    height: 45px;
+    padding: 12px 24px;
+    border: 1px solid $primary;
+    color: $primary;
+    background: $button;
+    border-radius: 12px;
+    white-space: nowrap;
+    transition: all 0.25s ease;
+    &:hover{
+        background: $primary;
+        color: $bg-light;
     }
   }
 }

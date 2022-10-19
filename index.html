@@ -12,8 +12,8 @@
 
 <body>
 
-    <!-- =====Sidebar===== -->
     <div class="row">
+        <!-- =====Sidebar===== -->
         <div class="col-auto" id="sidebar">
             <!-- =====sidebar logo===== -->
             <div class="top d-flex justify-content-start align-items-center">
@@ -182,39 +182,137 @@
         </div>
 
         <div class="col" id="content">
-            <div class="navbar d-flex justify-content-between align-items-center">
-
-                <div class="d-flex justify-content-start align-items-center">
-
-                    <img class="profile" src="./assets/img/navbar/profile.png" alt="">
-
-                    <div class="d-flex flex-column justify-content-start align-items-start">
-                        <h4 class="name">Good Morning, Nayn</h4>
+            <div class="row">
+                <!-- =====Navbar===== -->
+                <div class="col-12">
+                    <div class="navbar d-flex justify-content-between align-items-center">
 
                         <div class="d-flex justify-content-start align-items-center">
-                            <h5 class="desc">Finish your profile</h5>
-                            <a href="#" class="link">Edit link</a>
+        
+                            <img class="profile" src="./assets/img/navbar/profile.png" alt="">
+        
+                            <div class="d-flex flex-column justify-content-start align-items-start">
+                                <h4 class="name">Good Morning, Nayn</h4>
+        
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <h5 class="desc">Finish your profile</h5>
+                                    <a href="#" class="link">Edit link</a>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+        
+                        <div class="d-flex justify-content-start align-items-center">
+                            <div class="input-group">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon1">
+                                    <img src="./assets/img/navbar/search.svg" alt="">
+        
+                                </button>
+                                <input type="text" class="form-control" placeholder="Search Shoes"
+                                    aria-label="Example text with button addon" aria-describedby="button-addon1">
+                            </div>
+                            <button class="button d-flex justify-content-center align-items-center">
+                                <img src="./assets/img/sidebar/settings.svg" alt="">
+                            </button>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <!-- =====Header Content===== -->
+                <div class="col-12">
+                    <div class="content-header d-flex justify-content-between align-items-center">
+                        <h4 class="content-title">Exclusive Product From Nike</h4>
+                        <a href="" class="content-link">View all shoes</a>
+                    </div>
+                </div>
+
+                <!-- =====Content===== -->
+                <div class="col-4">
+                    <div class="product-card">
+                        <img src="./assets/img/preview/preview.png" alt="">
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-column justify-content-start align-items-start">
+                                <h5 class="color">7 colours</h5>
+                                <h4 class="name">Sport Nike 700</h4>
+                            </div>
+                            <button class="product-like">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.5909 6.09528L12.1213 6.6256L12.6516 6.09528C14.4453 4.30157 17.3535 4.30157 19.1472 6.0953C20.941 7.88902 20.941 10.7972 19.1473 12.591L12.2207 19.5176C12.1658 19.5725 12.0768 19.5725 12.022 19.5176L5.10555 12.6012L5.10485 12.6005L5.0953 12.591C5.09519 12.5909 5.09508 12.5907 5.09497 12.5906C3.30157 10.7969 3.30168 7.88891 5.0953 6.0953C6.88902 4.30158 9.79721 4.30157 11.5909 6.09528Z" stroke="#FF6D6D" stroke-width="1.5"/>
+                                    </svg>
+                            </button>
                         </div>
 
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-column justify-content-start align-items-start">
+                                <h5 class="color">Price:</h5>
+                                <h4 class="price">Rp.220.000</h4>
+                            </div>
+                            <button class="product-buy">
+                                Buy Now
+                            </button>
+                        </div>
                     </div>
-
                 </div>
+                <div class="col-4">
+                    <div class="product-card">
+                        <img src="./assets/img/preview/preview-1.png" alt="">
 
-                <div class="d-flex justify-content-start align-items-center">
-                    <div class="input-group">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon1">
-                            <img src="./assets/img/navbar/search.svg" alt="">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-column justify-content-start align-items-start">
+                                <h5 class="color">6 colours</h5>
+                                <h4 class="name">Gvren Nike 89</h4>
+                            </div>
+                            <button class="product-like">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.5909 6.09528L12.1213 6.6256L12.6516 6.09528C14.4453 4.30157 17.3535 4.30157 19.1472 6.0953C20.941 7.88902 20.941 10.7972 19.1473 12.591L12.2207 19.5176C12.1658 19.5725 12.0768 19.5725 12.022 19.5176L5.10555 12.6012L5.10485 12.6005L5.0953 12.591C5.09519 12.5909 5.09508 12.5907 5.09497 12.5906C3.30157 10.7969 3.30168 7.88891 5.0953 6.0953C6.88902 4.30158 9.79721 4.30157 11.5909 6.09528Z" stroke="#FF6D6D" stroke-width="1.5"/>
+                                    </svg>
+                            </button>
+                        </div>
 
-                        </button>
-                        <input type="text" class="form-control" placeholder="Search Shoes"
-                            aria-label="Example text with button addon" aria-describedby="button-addon1">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-column justify-content-start align-items-start">
+                                <h5 class="color">Price:</h5>
+                                <h4 class="price">Rp.300.000</h4>
+                            </div>
+                            <button class="product-buy">
+                                Buy Now
+                            </button>
+                        </div>
                     </div>
-                    <button class="button d-flex justify-content-center align-items-center">
-                        <img src="./assets/img/sidebar/settings.svg" alt="">
-                    </button>
                 </div>
+                <div class="col-4">
+                    <div class="product-card">
+                        <img src="./assets/img/preview/preview.png" alt="">
 
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-column justify-content-start align-items-start">
+                                <h5 class="color">4 colours</h5>
+                                <h4 class="name">Day Big 56</h4>
+                            </div>
+                            <button class="product-like">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.5909 6.09528L12.1213 6.6256L12.6516 6.09528C14.4453 4.30157 17.3535 4.30157 19.1472 6.0953C20.941 7.88902 20.941 10.7972 19.1473 12.591L12.2207 19.5176C12.1658 19.5725 12.0768 19.5725 12.022 19.5176L5.10555 12.6012L5.10485 12.6005L5.0953 12.591C5.09519 12.5909 5.09508 12.5907 5.09497 12.5906C3.30157 10.7969 3.30168 7.88891 5.0953 6.0953C6.88902 4.30158 9.79721 4.30157 11.5909 6.09528Z" stroke="#FF6D6D" stroke-width="1.5"/>
+                                    </svg>
+                            </button>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-column justify-content-start align-items-start">
+                                <h5 class="color">Price:</h5>
+                                <h4 class="price">Rp.460.000</h4>
+                            </div>
+                            <button class="product-buy">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
         </div>
     </div>
 
